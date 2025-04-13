@@ -23,7 +23,7 @@ DiscordLabel.Name = "DiscordLabel"
 DiscordLabel.Parent = AdFrame
 DiscordLabel.Size = UDim2.new(1, 0, 0.6, 0)
 DiscordLabel.BackgroundTransparency = 1
-DiscordLabel.Text = "Speed Hub X | Ad"
+DiscordLabel.Text = "Morbax X Hub | Ad"
 DiscordLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 DiscordLabel.TextSize = 22
 DiscordLabel.TextWrapped = true
@@ -61,7 +61,7 @@ end)
 
 CopyButton.MouseButton1Click:Connect(function()
     if setclipboard then
-        setclipboard("https://discord.gg/speedhubx")
+        setclipboard("https://discord.gg/mFyNpV4UDJ")
         task.wait()
         CopyButton.Text = "Copied To Discord Link"
         task.wait(0.6)
